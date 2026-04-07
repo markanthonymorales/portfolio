@@ -29,6 +29,3 @@ dist-ssr
 # Superpowers
 .superpowers/
 docs/
-
-package-lock.json
-yarn.lock
