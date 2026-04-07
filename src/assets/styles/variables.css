@@ -1,0 +1,57 @@
+:root {
+  /* Warm Navy + Gold palette */
+  --color-primary: #2c3e6b;
+  --color-primary-light: #3a5190;
+  --color-accent: #c9a96e;
+  --color-accent-hover: #b8963d;
+  --color-bg: #f8f6f3;
+  --color-surface: #ffffff;
+  --color-border: #e8e4de;
+  --color-text: #2c3e6b;
+  --color-text-muted: #8a8578;
+  --color-pill-bg: #f0ebe3;
+  --color-pill-text: #2c3e6b;
+  --color-tag-bg: #eee8dc;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(44, 62, 107, 0.06);
+  --shadow-card-hover: 0 8px 24px rgba(44, 62, 107, 0.12);
+
+  /* Spacing */
+  --grid-gap: 16px;
+  --card-padding: 24px;
+  --card-radius: 12px;
+
+  /* Typography */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+[data-theme="dark"] {
+  --color-primary: #e8e4de;
+  --color-primary-light: #f0ebe3;
+  --color-accent: #c9a96e;
+  --color-accent-hover: #d4b87a;
+  --color-bg: #1a2038;
+  --color-surface: #232b45;
+  --color-border: #2e3a56;
+  --color-text: #e8e4de;
+  --color-text-muted: #8a94a8;
+  --color-pill-bg: #2e3a56;
+  --color-pill-text: #c9a96e;
+  --color-tag-bg: #2e3a56;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-card-hover: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
